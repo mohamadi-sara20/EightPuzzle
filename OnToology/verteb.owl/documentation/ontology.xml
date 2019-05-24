@@ -76,6 +76,7 @@
 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasBodyTemperature">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#BodyTemperature"/>
         <rdfs:label xml:lang="fr">a la température corporelle</rdfs:label>
@@ -152,7 +153,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasTameness">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Tameness"/>
         <rdfs:label xml:lang="fr">a la domicilité</rdfs:label>
@@ -226,6 +226,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasAverageBodyLength">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="fr">aUneLongeurMoyenne</rdfs:label>
@@ -708,6 +709,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#DomainThing">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#ValueThing"/>
         <rdfs:label>DomainThing</rdfs:label>
         <owl:description>Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates.</owl:description>
         <owl:prefLabel>Domain Thing</owl:prefLabel>
@@ -1480,6 +1482,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Amphibian"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Bird"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Fish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Mammal"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Amphibian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Bird"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Mammal"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Reptile"/>
         </owl:members>

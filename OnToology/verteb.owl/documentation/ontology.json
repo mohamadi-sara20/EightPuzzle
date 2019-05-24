@@ -7,7 +7,21 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid104",
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Extinct"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#LowerRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Threatened"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Unknown"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid108",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -347,6 +361,18 @@
       "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Fish"
     }, {
       "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Mammal"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Amphibian"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Bird"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Mammal"
     }, {
       "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Reptile"
     } ]
@@ -361,7 +387,7 @@
     "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasBodyTemperature"
   } ]
 }, {
-  "@id" : "_:genid90",
+  "@id" : "_:genid94",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -380,20 +406,6 @@
       "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Tameness"
     }, {
       "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#TaxonomicRank"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid99",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Extinct"
-    }, {
-      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#LowerRisk"
-    }, {
-      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Threatened"
-    }, {
-      "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Unknown"
     } ]
   } ]
 }, {
@@ -717,6 +729,9 @@
   } ],
   "http://www.w3.org/2002/07/owl#description" : [ {
     "@value" : "Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#ValueThing"
   } ],
   "http://www.w3.org/2002/07/owl#prefLabel" : [ {
     "@value" : "Domain Thing"
@@ -1434,7 +1449,7 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasAverageBodyLength",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"
   } ],
@@ -1509,7 +1524,7 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasBodyTemperature",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"
   } ],
@@ -1916,7 +1931,7 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasTameness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#Animal"
   } ],

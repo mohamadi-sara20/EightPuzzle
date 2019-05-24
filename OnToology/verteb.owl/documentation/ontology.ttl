@@ -40,7 +40,8 @@ owl:prefLabel rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasBodyTemperature
-:hasBodyTemperature rdf:type owl:ObjectProperty ;
+:hasBodyTemperature rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
                     rdfs:domain :Animal ;
                     rdfs:range :BodyTemperature ;
                     rdfs:label "a la température corporelle"@fr ,
@@ -97,7 +98,6 @@ owl:prefLabel rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasTameness
 :hasTameness rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdf:type owl:FunctionalProperty ;
              rdfs:domain :Animal ;
              rdfs:range :Tameness ;
              rdfs:label "a la domicilité"@fr ,
@@ -147,6 +147,7 @@ owl:prefLabel rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#hasAverageBodyLength
 :hasAverageBodyLength rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
+                      rdf:type owl:FunctionalProperty ;
                       rdfs:domain :Animal ;
                       rdfs:range xsd:float ;
                       rdfs:label "aUneLongeurMoyenne"@fr ,
@@ -494,6 +495,7 @@ owl:prefLabel rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/sara/ontologies/2019/4/VertebrateTaxonomy#DomainThing
 :DomainThing rdf:type owl:Class ;
+             owl:disjointWith :ValueThing ;
              rdfs:label "DomainThing" ;
              owl:description "Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates." ;
              owl:prefLabel "Domain Thing" .
@@ -1017,6 +1019,14 @@ owl:prefLabel rdf:type owl:AnnotationProperty .
   owl:members ( :Amphibian
                 :Bird
                 :Fish
+                :Mammal
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Amphibian
+                :Bird
                 :Mammal
                 :Reptile
               )
