@@ -1,0 +1,806 @@
+@prefix : <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> .
+
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> rdf:type owl:Ontology ;
+                                                                 owl:description "An ontology about vertebrates and some of their features" ;
+                                                                 owl:versionInfo 1.0 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#description
+owl:description rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#prefLabel
+owl:prefLabel rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats
+:eats rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty ;
+      owl:description "A relation between animals, which animal preys on and eats which."@en .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature
+:hasBodyTemperature rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :Animal ;
+                    rdfs:range :BodyTemperature ;
+                    owl:description "A relation specifying what the body temperature is." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus
+:hasConservationStatus rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdf:type owl:FunctionalProperty ;
+                       rdfs:domain :Animal ;
+                       rdfs:range :ConservationStatus ;
+                       owl:description "A property specifying what the conservation status of an animal is." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet
+:hasDiet rdf:type owl:ObjectProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Animal ;
+         rdfs:range :Diet ;
+         owl:description "A property specifying food habits of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem
+:hasRespiratorySystem rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Animal ;
+                      rdfs:range :RespiratorySystem .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover
+:hasSkinCover rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range :SkinCovering ;
+              owl:description "A property specifying animals' body coverings." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness
+:hasTameness rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Animal ;
+             rdfs:range :Tameness ;
+             owl:description "A relation specifying tameness of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank
+:hasTaxonomicRrank rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain :Animal ;
+                   rdfs:range :TaxonomicRank ;
+                   owl:description "Representing taxonomic ranks of a given creature; i.e. is a class, a phylum, a kingdom etc." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate
+:livesInClimate rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Animal ;
+                rdfs:range :Climate ;
+                owl:description "A property specifying what kind of climate(s) animals live in." .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAquaticHabitat
+:hasAquaticHabitat rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :hasHabitat ;
+                   rdfs:domain :Animal ;
+                   rdfs:range xsd:string ;
+                   owl:description "A data property specifying aquatic habitats of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength
+:hasAverageBodyLength rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :Animal ;
+                      rdfs:range xsd:float ;
+                      owl:description "A data property specifying the average length of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight
+:hasAverageHeight rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Animal ;
+                  rdfs:range xsd:float ;
+                  owl:description "A data property specifying average height of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan
+:hasAverageLifespan rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Animal ;
+                    rdfs:range xsd:float ;
+                    owl:description "A data property specifying average lifespan of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName
+:hasClassName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :hasTaxonName ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range xsd:string ;
+              owl:description "A data property specifying the class names of animals." .
+
+[ rdf:type owl:AllDisjointProperties ;
+   owl:members ( :hasClassName
+               )
+ ] .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor
+:hasColor rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Animal ;
+          rdfs:range xsd:string ;
+          owl:description "A data property specifying color(s) of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName
+:hasCommanName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Animal ;
+               rdfs:range xsd:string ;
+               owl:description "A data property specifying the common names of animals." .
+
+[ rdf:type owl:AllDisjointProperties ;
+   owl:members ( :hasCommanName
+               )
+ ] .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName
+:hasEnglishName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasCommanName ;
+                owl:propertyDisjointWith :hasPersianName ;
+                owl:description "A data property specifying common English names for animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName
+:hasFamilyName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :hasTaxonName ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Animal ;
+               rdfs:range xsd:string ;
+               owl:description "A data property specifying the Family names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName
+:hasGenusName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :hasTaxonName ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range xsd:string ;
+              owl:description "A data property specifying the genus names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat
+:hasHabitat rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Animal ;
+            rdfs:range xsd:string ;
+            owl:description "A data property specifying the habitat of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName
+:hasKingdomName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasTaxonName ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Animal ;
+                rdfs:range xsd:string ;
+                owl:description "A data property specifying the kingdom names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName
+:hasOrderName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :hasTaxonName ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range xsd:string ;
+              owl:description "A data property specifying the order names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName
+:hasPersianName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasCommanName ;
+                owl:description "A data property specifying common Farsi name for animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName
+:hasPhylumName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf :hasTaxonName ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Animal ;
+               rdfs:range xsd:string ;
+               owl:description "A data property specifying the phylum names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName
+:hasSpeciesName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf :hasTaxonName ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Animal ;
+                rdfs:range xsd:string ;
+                owl:description "A data property specifying the species names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName
+:hasTaxonName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range xsd:string ;
+              owl:description "A data property specifying the taxonomic names of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTerrestrialHabitat
+:hasTerrestrialHabitat rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :hasHabitat ;
+                       rdfs:domain :Animal ;
+                       rdfs:range xsd:string ;
+                       owl:description "A data property specifying terrestrial habitats of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed
+:hasTopSpeed rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Animal ;
+             rdfs:range xsd:float ;
+             owl:description "A data property specifying the top speed of animals." .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian
+:Amphibian rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( :Vertebrate
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasBodyTemperature ;
+                                                        owl:hasValue :Changing
+                                                      ]
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasRespiratorySystem ;
+                                                        owl:hasValue :Other
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           owl:description "Representing different kinds of amphibians" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal
+:Animal rdf:type owl:Class ;
+        rdfs:subClassOf :DomainThing ;
+        rdfs:label "Animal"@en ;
+        owl:description "Representing all living things categorized under the kingdom Animalia." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird
+:Bird rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :Vertebrate
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasBodyTemperature ;
+                                                   owl:hasValue :Constant
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasSkinCover ;
+                                                   owl:hasValue :Feather
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+      owl:description "Representing different kinds of birds" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature
+:BodyTemperature rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                            [ rdf:type owl:Class ;
+                                                              owl:oneOf ( :Changing
+                                                                          :Constant
+                                                                        )
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf :ValueThing ;
+                 owl:description "This is a class representing body temperature of animals. It has two individuals: changing and constant. Constant body temperature includes to warm blooded creatures and changing body temperature indludes cold blooded ones." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate
+:Climate rdf:type owl:Class ;
+         owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                    [ rdf:type owl:Class ;
+                                                      owl:oneOf ( :Arctic
+                                                                  :Cold
+                                                                  :Moderate
+                                                                  :Tropical
+                                                                )
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
+         owl:description "Representing different types of climates animals could live in. Class Climate includes four instances: Arctic, Tropical, Moderate, Cold." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded
+:ColdBlooded rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Animal
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :hasBodyTemperature ;
+                                                          owl:hasValue :Changing
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf :Animal ;
+             owl:disjointWith :WarmBlooded ;
+             rdfs:label "ColdBlooded"@en .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus
+:ConservationStatus rdf:type owl:Class ;
+                    rdfs:subClassOf :ValueThing ;
+                    rdfs:seeAlso "Representing the conservation status of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet
+:Diet rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                 [ rdf:type owl:Class ;
+                                                   owl:oneOf ( :Carnivore
+                                                               :Herbivore
+                                                               :Omnivore
+                                                             )
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+      rdfs:subClassOf :ValueThing ;
+      rdfs:seeAlso "Representing animal diets." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing
+:DomainThing rdf:type owl:Class ;
+             owl:disjointWith :ValueThing ;
+             rdfs:label "DomainThing" ;
+             owl:description "Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates." ;
+             owl:prefLabel "Domain Thing" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct
+:Extinct rdf:type owl:Class ;
+         rdfs:subClassOf :ConservationStatus ;
+         owl:description "Representing the conservation status(es) considered as disappeared. It has two instances: One representing extinct as in extinct in the wild and the other, as in completely extinct." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish
+:Fish rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :Vertebrate
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasBodyTemperature ;
+                                                   owl:hasValue :Changing
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasRespiratorySystem ;
+                                                   owl:hasValue :Gills
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+      rdfs:subClassOf :Vertebrate ;
+      owl:description "Representating  different kinds of fishes" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk
+:LowerRisk rdf:type owl:Class ;
+           rdfs:subClassOf :ConservationStatus ;
+           owl:description "Representing the coservation status(es) considered as safe, i.e. plenty of animals exist if the conservation status of an animal is of type lower risk. It includes only one instance: LeastConcern." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal
+:Mammal rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Vertebrate
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :hasBodyTemperature ;
+                                                     owl:hasValue :Constant
+                                                   ]
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :hasSkinCover ;
+                                                     owl:hasValue :Hair
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial
+:Marsupial rdf:type owl:Class ;
+           rdfs:subClassOf :Mammal ;
+           owl:description "Representing one of the three main groups of living mammals; whose distinctive characteristic is that most of the young are carried in a pouch. Well-known marsupials include kangaroos, wallabies, koalas, possums, opossums, wombats, and Tasmanian devils." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme
+:Monotreme rdf:type owl:Class ;
+           rdfs:subClassOf :Mammal .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate
+:NonVertebrate rdf:type owl:Class ;
+               rdfs:subClassOf :Animal ;
+               owl:disjointWith :Vertebrate ;
+               owl:description "We represent any animal who is not categorized as vertebrate with this class." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental
+:Placental rdf:type owl:Class ;
+           rdfs:subClassOf :Mammal ;
+           owl:description "Representing one of the three main groups of living mammals; whose distinctive feature compared to the other two categories lies in the fact that the fetus is carried in the uterus of its mother to a relatively late stage of development." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile
+:Reptile rdf:type owl:Class ;
+         owl:equivalentClass [ owl:intersectionOf ( :Vertebrate
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasBodyTemperature ;
+                                                      owl:hasValue :Changing
+                                                    ]
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasRespiratorySystem ;
+                                                      owl:hasValue :Lungs
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
+         owl:description "Representing different reptiles" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem
+:RespiratorySystem rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                              [ rdf:type owl:Class ;
+                                                                owl:oneOf ( :Gills
+                                                                            :Lungs
+                                                                            :Other
+                                                                          )
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf :ValueThing ;
+                   owl:description "Representing respiratory system of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering
+:SkinCovering rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                         [ rdf:type owl:Class ;
+                                                           owl:oneOf ( :Feather
+                                                                       :Hair
+                                                                     )
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf :ValueThing .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness
+:Tameness rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :ValueThing
+                                                     [ rdf:type owl:Class ;
+                                                       owl:oneOf ( :Domestic
+                                                                   :Tamable
+                                                                   :Wild
+                                                                 )
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank
+:TaxonomicRank rdf:type owl:Class ;
+               rdfs:subClassOf :ValueThing ;
+               owl:description "Representing taxonomic rank of animals." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened
+:Threatened rdf:type owl:Class ;
+            rdfs:subClassOf :ConservationStatus ;
+            owl:description "Representing the conservation status(es) considered as guarded and Threatened. It includes three instances: CriticallyEndangered, Endangered, NearEndangered." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown
+:Unknown rdf:type owl:Class ;
+         rdfs:subClassOf :ConservationStatus ;
+         owl:description "Representing conservation status of the so-called animal has not yet been examined. This is either due to lack of data, or simply because it has never been evaluated before." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing
+:ValueThing rdf:type owl:Class ;
+            rdfs:label "ValueThing" ;
+            owl:description "Representing classes which describe information about our main concept of interest; aka animals and specifically vertebrates." ;
+            owl:prefLabel "Value Thing" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate
+:Vertebrate rdf:type owl:Class ;
+            rdfs:subClassOf :Animal ;
+            owl:description "Vertebrates comprise all species of animals within the subphylum Vertebrata (i.e. chordates with backbones). Vertebrates represent the overwhelming majority of the phylum Chordata, with currently about 69,276 species described." .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded
+:WarmBlooded rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Animal
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :hasBodyTemperature ;
+                                                          owl:hasValue :Constant
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf :Animal ;
+             rdfs:label "WarmBlooded"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Arctic
+:Arctic rdf:type owl:NamedIndividual ,
+                 :Climate .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore
+:Carnivore rdf:type owl:NamedIndividual ,
+                    :Diet .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing
+:Changing rdf:type owl:NamedIndividual ,
+                   :BodyTemperature .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe
+:Classe rdf:type owl:NamedIndividual ,
+                 :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold
+:Cold rdf:type owl:NamedIndividual ,
+               :Climate .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct
+:CompletelyExtinct rdf:type owl:NamedIndividual ,
+                            :Extinct ;
+                   owl:prefLabel "EX" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent
+:ConservationDependent rdf:type owl:NamedIndividual ,
+                                :LowerRisk ;
+                       owl:prefLabel "CD" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant
+:Constant rdf:type owl:NamedIndividual ,
+                   :BodyTemperature .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered
+:CriticallyEndangered rdf:type owl:NamedIndividual ,
+                               :Threatened ;
+                      owl:prefLabel "CR" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient
+:DataDeficient rdf:type owl:NamedIndividual ,
+                        :Unknown ;
+               owl:prefLabel "DD" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic
+:Domestic rdf:type owl:NamedIndividual ,
+                   :Tameness .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered
+:Endangered rdf:type owl:NamedIndividual ,
+                     :Threatened ;
+            owl:prefLabel "EN" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild
+:ExtinctInTheWild rdf:type owl:NamedIndividual ,
+                           :Extinct ;
+                  owl:prefLabel "EW" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family
+:Family rdf:type owl:NamedIndividual ,
+                 :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather
+:Feather rdf:type owl:NamedIndividual ,
+                  :SkinCovering .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus
+:Genus rdf:type owl:NamedIndividual ,
+                :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills
+:Gills rdf:type owl:NamedIndividual ,
+                :RespiratorySystem .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair
+:Hair rdf:type owl:NamedIndividual ,
+               :SkinCovering .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore
+:Herbivore rdf:type owl:NamedIndividual ,
+                    :Diet .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom
+:Kingdom rdf:type owl:NamedIndividual ,
+                  :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern
+:LeastConcern rdf:type owl:NamedIndividual ,
+                       :LowerRisk ;
+              owl:prefLabel "LC" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs
+:Lungs rdf:type owl:NamedIndividual ,
+                :RespiratorySystem .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate
+:Moderate rdf:type owl:NamedIndividual ,
+                   :Climate .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened
+:NearThreatened rdf:type owl:NamedIndividual ,
+                         :LowerRisk ;
+                owl:prefLabel "NT" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated
+:NotEvaluated rdf:type owl:NamedIndividual ,
+                       :Unknown ;
+              owl:prefLabel "NE" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore
+:Omnivore rdf:type owl:NamedIndividual ,
+                   :Diet .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order
+:Order rdf:type owl:NamedIndividual ,
+                :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Other
+:Other rdf:type owl:NamedIndividual ,
+                :RespiratorySystem .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum
+:Phylum rdf:type owl:NamedIndividual ,
+                 :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species
+:Species rdf:type owl:NamedIndividual ,
+                  :TaxonomicRank .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable
+:Tamable rdf:type owl:NamedIndividual ,
+                  :Tameness .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical
+:Tropical rdf:type owl:NamedIndividual ,
+                   :Climate .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable
+:Vulnerable rdf:type owl:NamedIndividual ,
+                     :Threatened ;
+            owl:prefLabel "VU" .
+
+
+###  http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild
+:Wild rdf:type owl:NamedIndividual ,
+               :Tameness .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Amphibian
+                :Bird
+                :Fish
+                :Mammal
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Amphibian
+                :Bird
+                :Mammal
+                :Reptile
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :BodyTemperature
+                :Climate
+                :ConservationStatus
+                :Diet
+                :RespiratorySystem
+                :SkinCovering
+                :Tameness
+                :TaxonomicRank
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Extinct
+                :LowerRisk
+                :Threatened
+                :Unknown
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Marsupial
+                :Monotreme
+                :Placental
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

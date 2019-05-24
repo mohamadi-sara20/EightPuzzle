@@ -1,0 +1,25 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "VertebrateTaxonomy:Fish" "VertebrateTaxonomy:Extinct" "VertebrateTaxonomy:DomainThing" "VertebrateTaxonomy:Marsupial" "VertebrateTaxonomy:RespiratorySystem" "VertebrateTaxonomy:Animal" "VertebrateTaxonomy:LowerRisk" "VertebrateTaxonomy:Unknown" "VertebrateTaxonomy:WarmBlooded" "VertebrateTaxonomy:TaxonomicRank" "VertebrateTaxonomy:Threatened" "VertebrateTaxonomy:BodyTemperature" "VertebrateTaxonomy:ConservationStatus" "VertebrateTaxonomy:Monotreme" "VertebrateTaxonomy:SkinCovering" "VertebrateTaxonomy:Placental" "VertebrateTaxonomy:Mammal" "VertebrateTaxonomy:Vertebrate" "VertebrateTaxonomy:ColdBlooded" "VertebrateTaxonomy:Diet" "VertebrateTaxonomy:NonVertebrate" "VertebrateTaxonomy:ValueThing" ; /*classes style*/
+	"VertebrateTaxonomy:WarmBlooded" -> "VertebrateTaxonomy:Animal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:ColdBlooded" -> "VertebrateTaxonomy:Animal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Fish" -> "VertebrateTaxonomy:Vertebrate" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:LowerRisk" -> "VertebrateTaxonomy:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Diet" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Animal" -> "VertebrateTaxonomy:DomainThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Placental" -> "VertebrateTaxonomy:Mammal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Vertebrate" -> "VertebrateTaxonomy:Animal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:NonVertebrate" -> "VertebrateTaxonomy:Animal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Unknown" -> "VertebrateTaxonomy:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:SkinCovering" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:ConservationStatus" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Monotreme" -> "VertebrateTaxonomy:Mammal" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:TaxonomicRank" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Extinct" -> "VertebrateTaxonomy:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Threatened" -> "VertebrateTaxonomy:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:BodyTemperature" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:RespiratorySystem" -> "VertebrateTaxonomy:ValueThing" [ label = "rdfs:subClassOf" ];
+	"VertebrateTaxonomy:Marsupial" -> "VertebrateTaxonomy:Mammal" [ label = "rdfs:subClassOf" ];
+
+}
