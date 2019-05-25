@@ -1,0 +1,25 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Fish" "base:Extinct" "base:DomainThing" "base:Marsupial" "base:RespiratorySystem" "base:Animal" "base:LowerRisk" "base:Unknown" "base:WarmBlooded" "base:TaxonomicRank" "base:Threatened" "base:BodyTemperature" "base:ConservationStatus" "base:Monotreme" "base:SkinCovering" "base:Placental" "base:Mammal" "base:Vertebrate" "base:ColdBlooded" "base:Diet" "base:NonVertebrate" "base:ValueThing" ; /*classes style*/
+	"base:WarmBlooded" -> "base:Animal" [ label = "rdfs:subClassOf" ];
+	"base:ColdBlooded" -> "base:Animal" [ label = "rdfs:subClassOf" ];
+	"base:Fish" -> "base:Vertebrate" [ label = "rdfs:subClassOf" ];
+	"base:LowerRisk" -> "base:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"base:Diet" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:Animal" -> "base:DomainThing" [ label = "rdfs:subClassOf" ];
+	"base:Placental" -> "base:Mammal" [ label = "rdfs:subClassOf" ];
+	"base:Vertebrate" -> "base:Animal" [ label = "rdfs:subClassOf" ];
+	"base:NonVertebrate" -> "base:Animal" [ label = "rdfs:subClassOf" ];
+	"base:Unknown" -> "base:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"base:SkinCovering" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:ConservationStatus" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:Monotreme" -> "base:Mammal" [ label = "rdfs:subClassOf" ];
+	"base:TaxonomicRank" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:Extinct" -> "base:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"base:Threatened" -> "base:ConservationStatus" [ label = "rdfs:subClassOf" ];
+	"base:BodyTemperature" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:RespiratorySystem" -> "base:ValueThing" [ label = "rdfs:subClassOf" ];
+	"base:Marsupial" -> "base:Mammal" [ label = "rdfs:subClassOf" ];
+
+}
