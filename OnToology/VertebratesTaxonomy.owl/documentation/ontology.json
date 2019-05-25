@@ -1,0 +1,2112 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    }, {
+      "@id" : "_:genid15"
+    }, {
+      "@id" : "_:genid13"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Arctic"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid37"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    }, {
+      "@id" : "_:genid46"
+    }, {
+      "@id" : "_:genid44"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    }, {
+      "@id" : "_:genid52"
+    }, {
+      "@id" : "_:genid50"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    }, {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    }, {
+      "@id" : "_:genid58"
+    }, {
+      "@id" : "_:genid56"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid62"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Other"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid69"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Other"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    }, {
+      "@id" : "_:genid75"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+    }, {
+      "@id" : "_:genid82"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened"
+    }, {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "An ontology about vertebrates and some of their features"
+  } ],
+  "http://www.w3.org/2002/07/owl#author" : [ {
+    "@value" : "Sara Shahmohamadi"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing different kinds of amphibians"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Amphibie"
+  }, {
+    "@language" : "fr",
+    "@value" : "amphibie"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing all living things categorized under the kingdom Animalia."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Animal"
+  }, {
+    "@language" : "fr",
+    "@value" : "Animal"
+  }, {
+    "@language" : "de",
+    "@value" : "Tier"
+  }, {
+    "@language" : "fa",
+    "@value" : "حیوان"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Arctic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Arktis"
+  }, {
+    "@language" : "fr",
+    "@value" : "arctique"
+  }, {
+    "@language" : "fa",
+    "@value" : "قطبی"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing different kinds of birds"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Vogel"
+  }, {
+    "@language" : "fr",
+    "@value" : "oiseau"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "This is a class representing body temperature of animals. It has two individuals: changing and constant. Constant body temperature includes to warm blooded creatures and changing body temperature indludes cold blooded ones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Körpertemperatur"
+  }, {
+    "@language" : "fr",
+    "@value" : "température corporelle"
+  }, {
+    "@language" : "fa",
+    "@value" : "دمای بدن"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fleischfresser"
+  }, {
+    "@language" : "fr",
+    "@value" : "carnivore"
+  }, {
+    "@language" : "fa",
+    "@value" : "گوشتخوار"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "variable"
+  }, {
+    "@language" : "de",
+    "@value" : "Ändern"
+  }, {
+    "@language" : "fa",
+    "@value" : "متغیر"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Klasse"
+  }, {
+    "@language" : "fr",
+    "@value" : "classe"
+  }, {
+    "@language" : "fa",
+    "@value" : "رده"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing different types of climates animals could live in. Class Climate includes four instances: Arctic, Tropical, Moderate, Cold."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Klima"
+  }, {
+    "@language" : "fr",
+    "@value" : "climat"
+  }, {
+    "@language" : "fa",
+    "@value" : "اقلیم"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "froid"
+  }, {
+    "@language" : "de",
+    "@value" : "kalt"
+  }, {
+    "@language" : "fa",
+    "@value" : "سردسیر"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ColdBlooded"
+  }, {
+    "@language" : "fr",
+    "@value" : "ectothermique"
+  }, {
+    "@language" : "de",
+    "@value" : "ektothermisch"
+  }, {
+    "@language" : "fa",
+    "@value" : "خونسرد"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "complètement éteint"
+  }, {
+    "@language" : "de",
+    "@value" : "völlig ausgestorben"
+  }, {
+    "@language" : "fa",
+    "@value" : "انقراض کامل"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "EX"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "dépendant de la conservation"
+  }, {
+    "@language" : "de",
+    "@value" : "erhaltungsabhängig"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@language" : "fa",
+    "@value" : "نیازمند محافظت"
+  }, {
+    "@value" : "CD"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fa",
+    "@value" : "وضعیت بقا"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "de",
+    "@value" : "Erhaltungszustand"
+  }, {
+    "@language" : "fr",
+    "@value" : "le statue de conservation"
+  }, {
+    "@value" : "Representing the conservation status of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Konstante"
+  }, {
+    "@language" : "fr",
+    "@value" : "constant"
+  }, {
+    "@language" : "fa",
+    "@value" : "ثابت"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "en danger critique"
+  }, {
+    "@language" : "de",
+    "@value" : "kritisch gefährdet"
+  }, {
+    "@language" : "fa",
+    "@value" : "شدیدا در معرض خطر"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "CR"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Daten mangelhaft"
+  }, {
+    "@language" : "fr",
+    "@value" : "données insuffisantes"
+  }, {
+    "@language" : "fa",
+    "@value" : "داده ناکافی"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "DD"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fa",
+    "@value" : "رژیم غذایی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "de",
+    "@value" : "Diät"
+  }, {
+    "@language" : "fr",
+    "@value" : "régime"
+  }, {
+    "@value" : "Representing animal diets."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DomainThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "Domain Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "domestique"
+  }, {
+    "@language" : "de",
+    "@value" : "inländisch"
+  }, {
+    "@language" : "fa",
+    "@value" : "اهلی"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "en danger"
+  }, {
+    "@language" : "de",
+    "@value" : "gefährdet"
+  }, {
+    "@language" : "fa",
+    "@value" : "در معرض خطر"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "EN"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing the conservation status(es) considered as disappeared. It has two instances: One representing extinct as in extinct in the wild and the other, as in completely extinct."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "ausgestorben"
+  }, {
+    "@language" : "fr",
+    "@value" : "disparu"
+  }, {
+    "@language" : "fa",
+    "@value" : "منقرض‌شده"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "in freier Wildbahn ausgestorben"
+  }, {
+    "@language" : "fr",
+    "@value" : "éteint à l'état sauvage"
+  }, {
+    "@language" : "fa",
+    "@value" : "انقراض در حیات وحش"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "EW"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Familie"
+  }, {
+    "@language" : "fr",
+    "@value" : "famille"
+  }, {
+    "@language" : "fa",
+    "@value" : "خانواده"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Feder"
+  }, {
+    "@language" : "fr",
+    "@value" : "plume"
+  }, {
+    "@language" : "fa",
+    "@value" : "پر"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representating  different kinds of fishes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fisch"
+  }, {
+    "@language" : "fr",
+    "@value" : "poisson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Gattung"
+  }, {
+    "@language" : "fr",
+    "@value" : "genre"
+  }, {
+    "@language" : "fa",
+    "@value" : "سرده"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kiemen"
+  }, {
+    "@language" : "fr",
+    "@value" : "branchies"
+  }, {
+    "@language" : "fa",
+    "@value" : "آبشش"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Haar"
+  }, {
+    "@language" : "fr",
+    "@value" : "cheveux"
+  }, {
+    "@language" : "fa",
+    "@value" : "مو"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Pflanzenfresser"
+  }, {
+    "@language" : "fr",
+    "@value" : "herbivore"
+  }, {
+    "@language" : "fa",
+    "@value" : "گیاه‌خوار"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reich"
+  }, {
+    "@language" : "fr",
+    "@value" : "Règne"
+  }, {
+    "@language" : "fa",
+    "@value" : "فرمانرو"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "am wenigsten Sorge"
+  }, {
+    "@language" : "fr",
+    "@value" : "moindre préoccupation"
+  }, {
+    "@language" : "fa",
+    "@value" : "کمترین نگرانی"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "LC"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing the coservation status(es) considered as safe, i.e. plenty of animals exist if the conservation status of an animal is of type lower risk. It includes only one instance: LeastConcern."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "abondant"
+  }, {
+    "@language" : "de",
+    "@value" : "reichlich"
+  }, {
+    "@language" : "fa",
+    "@value" : "فراوان"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Lunge"
+  }, {
+    "@language" : "fr",
+    "@value" : "poumons"
+  }, {
+    "@language" : "fa",
+    "@value" : "شش"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "fr",
+    "@value" : "Representing different kinds of mammals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Säugetier"
+  }, {
+    "@language" : "fr",
+    "@value" : "mammifère"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid48"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing one of the three main groups of living mammals; whose distinctive characteristic is that most of the young are carried in a pouch. Well-known marsupials include kangaroos, wallabies, koalas, possums, opossums, wombats, and Tasmanian devils."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Beuteltier"
+  }, {
+    "@language" : "fr",
+    "@value" : "marsupial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "modéré"
+  }, {
+    "@language" : "de",
+    "@value" : "mäßig"
+  }, {
+    "@language" : "fa",
+    "@value" : "معتدل"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "de",
+    "@value" : "Representing one of the three main groups of living mammals; typified by structural differences in their brains, jaws, digestive tract, reproductive tract, and other body parts compared to the more common mammalian types. In addition they lay eggs rather than bear live young, but like all mammals, the female monotremes nurse their young with milk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kloakentiere"
+  }, {
+    "@language" : "fr",
+    "@value" : "Monotremata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "fast bedroht"
+  }, {
+    "@language" : "fr",
+    "@value" : "quasi menacée"
+  }, {
+    "@language" : "fa",
+    "@value" : "در آستانه خطر"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "NT"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "We represent any animal who is not categorized as vertebrate with this class."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "non-vertébré"
+  }, {
+    "@language" : "fa",
+    "@value" : "غیرمهره‌دار"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "nicht bewertet"
+  }, {
+    "@language" : "fr",
+    "@value" : "non évalué"
+  }, {
+    "@language" : "fa",
+    "@value" : "بررسی‌نشده"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "NE"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Omnivore"
+  }, {
+    "@language" : "fr",
+    "@value" : "omnivore"
+  }, {
+    "@language" : "fa",
+    "@value" : "همه‌چیز‌خوار"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ordnung"
+  }, {
+    "@language" : "fr",
+    "@value" : "ordre"
+  }, {
+    "@language" : "fa",
+    "@value" : "راسته"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "andere"
+  }, {
+    "@language" : "fr",
+    "@value" : "autre"
+  }, {
+    "@language" : "fa",
+    "@value" : "الخ"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Embranchement"
+  }, {
+    "@language" : "de",
+    "@value" : "Stamm"
+  }, {
+    "@language" : "fa",
+    "@value" : "شاخه"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing one of the three main groups of living mammals; whose distinctive feature compared to the other two categories lies in the fact that the fetus is carried in the uterus of its mother to a relatively late stage of development."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Höhere Säugetiere"
+  }, {
+    "@language" : "fr",
+    "@value" : "Placentalia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing different reptiles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Reptil"
+  }, {
+    "@language" : "fr",
+    "@value" : "reptile"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing respiratory system of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Atmungssystem"
+  }, {
+    "@language" : "fr",
+    "@value" : "système respiratoire"
+  }, {
+    "@language" : "fa",
+    "@value" : "دستگاه تنفسی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "de",
+    "@value" : "Representing sking covering of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Körperbedeckung"
+  }, {
+    "@language" : "fr",
+    "@value" : "revêtement corporel"
+  }, {
+    "@language" : "fa",
+    "@value" : "پوشش بدن"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid67"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Art"
+  }, {
+    "@language" : "fr",
+    "@value" : "Espèce"
+  }, {
+    "@language" : "fa",
+    "@value" : "گونه"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "domptable"
+  }, {
+    "@language" : "de",
+    "@value" : "zähmbar"
+  }, {
+    "@language" : "fa",
+    "@value" : "قابل‌تربیت"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "de",
+    "@value" : "Representing animals' status of tameness."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Zahmheit"
+  }, {
+    "@language" : "fr",
+    "@value" : "docilité"
+  }, {
+    "@language" : "fa",
+    "@value" : "رامی"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid73"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing taxonomic rank of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "rang taxonomique"
+  }, {
+    "@language" : "de",
+    "@value" : "taxonomischer Rang"
+  }, {
+    "@language" : "fa",
+    "@value" : "رتبه آرایه‌شناختی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing the conservation status(es) considered as guarded and Threatened. It includes three instances: CriticallyEndangered, Endangered, NearEndangered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "geschützt"
+  }, {
+    "@language" : "fr",
+    "@value" : "protégé"
+  }, {
+    "@language" : "fa",
+    "@value" : "محافظت‌شده"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "tropical"
+  }, {
+    "@language" : "de",
+    "@value" : "tropisch"
+  }, {
+    "@language" : "fa",
+    "@value" : "استوایی"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing conservation status of the so-called animal has not yet been examined. This is either due to lack of data, or simply because it has never been evaluated before."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "inconnu"
+  }, {
+    "@language" : "de",
+    "@value" : "unbekannte"
+  }, {
+    "@language" : "fa",
+    "@value" : "نامعلوم"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing classes which describe information about our main concept of interest; aka animals and specifically vertebrates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ValueThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@value" : "Value Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Vertebrates comprise all species of animals within the subphylum Vertebrata (i.e. chordates with backbones). Vertebrates represent the overwhelming majority of the phylum Chordata, with currently about 69,276 species described."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Wirbeltier"
+  }, {
+    "@language" : "fr",
+    "@value" : "vertébré"
+  }, {
+    "@language" : "fa",
+    "@value" : "مهره‌دار"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "verletzlich"
+  } ],
+  "http://www.w3.org/2002/07/owl#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "vulnérable"
+  }, {
+    "@language" : "fa",
+    "@value" : "آسیب‌پذیر"
+  }, {
+    "@value" : "VU"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "WarmBlooded"
+  }, {
+    "@language" : "fr",
+    "@value" : "endothermique"
+  }, {
+    "@language" : "de",
+    "@value" : "endothermisch"
+  }, {
+    "@language" : "fa",
+    "@value" : "خونگرم"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid80"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "sauvage"
+  }, {
+    "@language" : "de",
+    "@value" : "wild"
+  }, {
+    "@language" : "fa",
+    "@value" : "وحشی"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A relation between animals, which animal preys on and eats which."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "isst"
+  }, {
+    "@language" : "fr",
+    "@value" : "mange"
+  }, {
+    "@language" : "fa",
+    "@value" : "می‌خورد"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAquaticHabitat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying aquatic habitats of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "aquatischerLebensraumIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "habitatAquatiqueEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای سکونتگاه آبی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the average length of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "aUneLongeurMoyenne"
+  }, {
+    "@language" : "de",
+    "@value" : "hatdurchschnittlicheLänge"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای میانگین طول بدن"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying average height of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "aUneHauteurMoyenne"
+  }, {
+    "@language" : "de",
+    "@value" : "hatdurchschnittlicheHöhe"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای میانگین قد"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying average lifespan of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "aUneDuréeDeVieMoyenne"
+  }, {
+    "@language" : "de",
+    "@value" : "hatEineDurchschnittlicheLebensdauer"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای میانگین طول عمر"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A relation specifying what the body temperature is."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a la température corporelle"
+  }, {
+    "@language" : "de",
+    "@value" : "hat Körpertemperatur"
+  }, {
+    "@language" : "fa",
+    "@value" : "دمای بدن برابر با"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the class names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "KlassenameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeClasseEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام رده"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying color(s) of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "estDeCouleur"
+  }, {
+    "@language" : "de",
+    "@value" : "vonFarbe"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای رنگ‌[های]"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the common names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "gebräuchlicherNameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomCommunEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای اسم عامیانه"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A property specifying what the conservation status of an animal is."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a le statue de conservation"
+  }, {
+    "@language" : "de",
+    "@value" : "hat Erhaltungszustand"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای وضعیت بقای"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "de",
+    "@value" : "hat Diät"
+  }, {
+    "@value" : "A property specifying food habits of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a un régime"
+  }, {
+    "@language" : "fa",
+    "@value" : "پیرو رژیم غذایی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying common English names for animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "englischerGebräuchlicherNameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomCommunAnglaisEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای اسم عامیانه انگلیسی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the Family names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "FamilienameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeFamilleEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام خانواده"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the genus names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "gattungnameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeGenreEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام سرده"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the habitat of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "habitatEst"
+  }, {
+    "@language" : "de",
+    "@value" : "lebensraumIst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای سکونتگاه"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the kingdom names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "ReichnameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeRègneEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام فرمانرو"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the order names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "nomDeOrdreEst"
+  }, {
+    "@language" : "de",
+    "@value" : "ordnungnameIst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام راسته"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying common Farsi name for animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "gebräuchlicherFarsiName"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomCommunPersanEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای اسم عامیانه فارسی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the phylum names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "StammnameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeEmbranchementEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام شاخه"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a le système respiratoire"
+  }, {
+    "@language" : "de",
+    "@value" : "hat Atmungssystem"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای دستگاه تنفسی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A property specifying animals' body coverings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a le revêtement corporel"
+  }, {
+    "@language" : "de",
+    "@value" : "hatKörperbedeckung"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای پوشش بدنی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the species names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "artnameIst"
+  }, {
+    "@language" : "fr",
+    "@value" : "nomDeEspèceEst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام گونه"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A relation specifying tameness of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a la domicilité"
+  }, {
+    "@language" : "de",
+    "@value" : "hatZahmheit"
+  }, {
+    "@language" : "fa",
+    "@value" : "واجد خصوصیت رامی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the taxonomic names of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "nomTaxonomiqueEst"
+  }, {
+    "@language" : "de",
+    "@value" : "taxonomischernameIst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای نام آرایه‌شناختی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Representing taxonomic ranks of a given creature; i.e. is a class, a phylum, a kingdom etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "a le rang taxonomique"
+  }, {
+    "@language" : "de",
+    "@value" : "hatTaxonomischenRang"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای رتبه آرایه‌شناختی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTerrestrialHabitat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying terrestrial habitats of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "habitatTerrestreEst"
+  }, {
+    "@language" : "de",
+    "@value" : "terrestrischerLebensraumIst"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای سکونتگاه زمینی"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A data property specifying the top speed of animals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "aLaVitesseMaximale"
+  }, {
+    "@language" : "de",
+    "@value" : "hatHöchstgeschwindigkeit"
+  }, {
+    "@language" : "fa",
+    "@value" : "دارای حداکثر سرعت"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "A property specifying what kind of climate(s) animals live in."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "lebt im Klima"
+  }, {
+    "@language" : "fr",
+    "@value" : "vit dans le climat"
+  }, {
+    "@language" : "fa",
+    "@value" : "ساکن در اقلیم"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
