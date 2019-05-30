@@ -1,0 +1,1534 @@
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> <http://purl.org/dc/terms/description> "An ontology about vertebrates and some of their features" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> <http://www.w3.org/2002/07/owl#author> "Sara Shahmohamadi" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#author
+<http://www.w3.org/2002/07/owl#author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#description
+<http://www.w3.org/2002/07/owl#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#prefLabel
+<http://www.w3.org/2002/07/owl#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://purl.org/dc/terms/description> "A relation between animals, which animal preys on and eats which."@en .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#label> "isst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#label> "mange"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> <http://www.w3.org/2000/01/rdf-schema#label> "می‌خورد"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://purl.org/dc/terms/description> "A relation specifying what the body temperature is." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "a la température corporelle"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "hat Körpertemperatur"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "دمای بدن برابر با"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://purl.org/dc/terms/description> "A property specifying what the conservation status of an animal is." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "a le statue de conservation"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "hat Erhaltungszustand"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "دارای وضعیت بقای"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://purl.org/dc/terms/description> "hat Diät"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://purl.org/dc/terms/description> "A property specifying food habits of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#label> "a un régime"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> <http://www.w3.org/2000/01/rdf-schema#label> "پیرو رژیم غذایی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "a le système respiratoire"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "hat Atmungssystem"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "دارای دستگاه تنفسی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://purl.org/dc/terms/description> "A property specifying animals' body coverings." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#label> "a le revêtement corporel"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#label> "hatKörperbedeckung"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> <http://www.w3.org/2000/01/rdf-schema#label> "دارای پوشش بدنی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://purl.org/dc/terms/description> "A relation specifying tameness of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#label> "a la domicilité"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#label> "hatZahmheit"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> <http://www.w3.org/2000/01/rdf-schema#label> "واجد خصوصیت رامی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://purl.org/dc/terms/description> "Representing taxonomic ranks of a given creature; i.e. is a class, a phylum, a kingdom etc." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#label> "a le rang taxonomique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#label> "hatTaxonomischenRang"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> <http://www.w3.org/2000/01/rdf-schema#label> "دارای رتبه آرایه‌شناختی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://purl.org/dc/terms/description> "A property specifying what kind of climate(s) animals live in." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#label> "lebt im Klima"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#label> "vit dans le climat"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> <http://www.w3.org/2000/01/rdf-schema#label> "ساکن در اقلیم"@fa .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://purl.org/dc/terms/description> "A data property specifying the average length of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#label> "aUneLongeurMoyenne"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#label> "hatdurchschnittlicheLänge"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength> <http://www.w3.org/2000/01/rdf-schema#label> "دارای میانگین طول بدن"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://purl.org/dc/terms/description> "A data property specifying average height of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#label> "aUneHauteurMoyenne"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#label> "hatdurchschnittlicheHöhe"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight> <http://www.w3.org/2000/01/rdf-schema#label> "دارای میانگین قد"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://purl.org/dc/terms/description> "A data property specifying average lifespan of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#label> "aUneDuréeDeVieMoyenne"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#label> "hatEineDurchschnittlicheLebensdauer"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan> <http://www.w3.org/2000/01/rdf-schema#label> "دارای میانگین طول عمر"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://purl.org/dc/terms/description> "A data property specifying the class names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#label> "KlassenameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeClasseEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام رده"@fa .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://purl.org/dc/terms/description> "A data property specifying color(s) of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#label> "estDeCouleur"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#label> "vonFarbe"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor> <http://www.w3.org/2000/01/rdf-schema#label> "دارای رنگ‌[های]"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://purl.org/dc/terms/description> "A data property specifying the common names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#label> "gebräuchlicherNameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#label> "nomCommunEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای اسم عامیانه"@fa .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid3 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://purl.org/dc/terms/description> "A data property specifying common English names for animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/2000/01/rdf-schema#label> "englischerGebräuchlicherNameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/2000/01/rdf-schema#label> "nomCommunAnglaisEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای اسم عامیانه انگلیسی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://purl.org/dc/terms/description> "A data property specifying the Family names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#label> "FamilienameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeFamilleEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام خانواده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://purl.org/dc/terms/description> "A data property specifying the genus names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#label> "gattungnameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeGenreEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام سرده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://purl.org/dc/terms/description> "A data property specifying the kingdom names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#label> "ReichnameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeRègneEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام فرمانرو"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://purl.org/dc/terms/description> "A data property specifying the order names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeOrdreEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#label> "ordnungnameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام راسته"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://purl.org/dc/terms/description> "A data property specifying common Farsi name for animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://www.w3.org/2000/01/rdf-schema#label> "gebräuchlicherFarsiName"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://www.w3.org/2000/01/rdf-schema#label> "nomCommunPersanEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای اسم عامیانه فارسی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://purl.org/dc/terms/description> "A data property specifying the phylum names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#label> "StammnameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeEmbranchementEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام شاخه"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://purl.org/dc/terms/description> "A data property specifying the species names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#label> "artnameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#label> "nomDeEspèceEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام گونه"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://purl.org/dc/terms/description> "A data property specifying the taxonomic names of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#label> "nomTaxonomiqueEst"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomischernameIst"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName> <http://www.w3.org/2000/01/rdf-schema#label> "دارای نام آرایه‌شناختی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://purl.org/dc/terms/description> "A data property specifying the top speed of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "aLaVitesseMaximale"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "hatHöchstgeschwindigkeit"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed> <http://www.w3.org/2000/01/rdf-schema#label> "دارای حداکثر سرعت"@fa .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> .
+_:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian> <http://purl.org/dc/terms/description> "Representing different kinds of amphibians" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian> <http://www.w3.org/2000/01/rdf-schema#label> "Amphibie"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian> <http://www.w3.org/2000/01/rdf-schema#label> "amphibie"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://purl.org/dc/terms/description> "Representing all living things categorized under the kingdom Animalia." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/2000/01/rdf-schema#label> "Animal"@en .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/2000/01/rdf-schema#label> "Animal"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/2000/01/rdf-schema#label> "Tier"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> <http://www.w3.org/2000/01/rdf-schema#label> "حیوان"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> <http://purl.org/dc/terms/description> "Representing different kinds of birds" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> <http://www.w3.org/2000/01/rdf-schema#label> "Vogel"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> <http://www.w3.org/2000/01/rdf-schema#label> "oiseau"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/2002/07/owl#disjointWith> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/2002/07/owl#complementOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/2002/07/owl#unionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid27 <http://www.w3.org/2002/07/owl#oneOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid24 <http://www.w3.org/2002/07/owl#oneOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://purl.org/dc/terms/description> "This is a class representing body temperature of animals. It has two individuals: changing and constant. Constant body temperature includes to warm blooded creatures and changing body temperature indludes cold blooded ones." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "Körpertemperatur"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "température corporelle"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "دمای بدن"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid31 <http://www.w3.org/2002/07/owl#oneOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/2002/07/owl#disjointWith> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid37 <http://www.w3.org/2002/07/owl#complementOf> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid38 <http://www.w3.org/2002/07/owl#unionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid49 <http://www.w3.org/2002/07/owl#oneOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#oneOf> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid43 <http://www.w3.org/2002/07/owl#oneOf> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/2002/07/owl#oneOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://purl.org/dc/terms/description> "Representing different types of climates animals could live in. Class Climate includes four instances: Arctic, Tropical, Moderate, Cold." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "Klima"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "climat"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> <http://www.w3.org/2000/01/rdf-schema#label> "اقلیم"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid53 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "ColdBlooded"@en .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "ectothermique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "ektothermisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "خونسرد"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid55 <http://www.w3.org/2002/07/owl#unionOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2002/07/owl#disjointWith> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid60 <http://www.w3.org/2002/07/owl#complementOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid61 <http://www.w3.org/2002/07/owl#unionOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "وضعیت بقا"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Erhaltungszustand"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "le statue de conservation"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Representing the conservation status of animals." .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid68 <http://www.w3.org/2002/07/owl#oneOf> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2002/07/owl#disjointWith> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid73 <http://www.w3.org/2002/07/owl#complementOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid74 <http://www.w3.org/2002/07/owl#unionOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid82 <http://www.w3.org/2002/07/owl#oneOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid79 <http://www.w3.org/2002/07/owl#oneOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid76 <http://www.w3.org/2002/07/owl#oneOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2000/01/rdf-schema#label> "رژیم غذایی"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Diät"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "régime"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Representing animal diets." .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> <http://purl.org/dc/terms/description> "Representing our main concept of interest and class hierarchy: Animals, or to be more specific vertebrates." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> <http://www.w3.org/2000/01/rdf-schema#label> "DomainThing" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing> <http://www.w3.org/2002/07/owl#prefLabel> "Domain Thing" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid84 <http://www.w3.org/2002/07/owl#oneOf> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://purl.org/dc/terms/description> "Representing the conservation status(es) considered as disappeared. It has two instances: One representing extinct as in extinct in the wild and the other, as in completely extinct." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/2000/01/rdf-schema#label> "ausgestorben"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/2000/01/rdf-schema#label> "disparu"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> <http://www.w3.org/2000/01/rdf-schema#label> "منقرض‌شده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid91 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> .
+_:genid89 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://purl.org/dc/terms/description> "Representating  different kinds of fishes" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://www.w3.org/2000/01/rdf-schema#label> "Fisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> <http://www.w3.org/2000/01/rdf-schema#label> "poisson"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid95 <http://www.w3.org/2002/07/owl#oneOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> <http://www.w3.org/2002/07/owl#disjointWith> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid99 <http://www.w3.org/2002/07/owl#complementOf> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid100 <http://www.w3.org/2002/07/owl#unionOf> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid105 <http://www.w3.org/2002/07/owl#oneOf> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid102 <http://www.w3.org/2002/07/owl#oneOf> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid107 <http://www.w3.org/2002/07/owl#oneOf> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://purl.org/dc/terms/description> "Representing the coservation status(es) considered as safe, i.e. plenty of animals exist if the conservation status of an animal is of type lower risk. It includes only one instance: LeastConcern." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/2000/01/rdf-schema#label> "abondant"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/2000/01/rdf-schema#label> "reichlich"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> <http://www.w3.org/2000/01/rdf-schema#label> "فراوان"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid111 .
+_:genid111 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid115 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid113 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> .
+_:genid113 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> <http://purl.org/dc/terms/description> "Representing different kinds of mammals"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> <http://www.w3.org/2000/01/rdf-schema#label> "Säugetier"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> <http://www.w3.org/2000/01/rdf-schema#label> "mammifère"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> <http://purl.org/dc/terms/description> "Representing one of the three main groups of living mammals; whose distinctive characteristic is that most of the young are carried in a pouch. Well-known marsupials include kangaroos, wallabies, koalas, possums, opossums, wombats, and Tasmanian devils." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> <http://www.w3.org/2000/01/rdf-schema#label> "Beuteltier"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> <http://www.w3.org/2000/01/rdf-schema#label> "marsupial"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> <http://purl.org/dc/terms/description> "Representing one of the three main groups of living mammals; typified by structural differences in their brains, jaws, digestive tract, reproductive tract, and other body parts compared to the more common mammalian types. In addition they lay eggs rather than bear live young, but like all mammals, the female monotremes nurse their young with milk."@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> <http://www.w3.org/2000/01/rdf-schema#label> "Kloakentiere"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> <http://www.w3.org/2000/01/rdf-schema#label> "Monotremata"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://purl.org/dc/terms/description> "We represent any animal who is not categorized as vertebrate with this class." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://www.w3.org/2000/01/rdf-schema#label> "non-vertébré"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate> <http://www.w3.org/2000/01/rdf-schema#label> "غیرمهره‌دار"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> <http://purl.org/dc/terms/description> "Representing one of the three main groups of living mammals; whose distinctive feature compared to the other two categories lies in the fact that the fetus is carried in the uterus of its mother to a relatively late stage of development." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> <http://www.w3.org/2000/01/rdf-schema#label> "Höhere Säugetiere"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> <http://www.w3.org/2000/01/rdf-schema#label> "Placentalia"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid117 .
+_:genid117 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid121 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid121 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid119 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> .
+_:genid119 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> <http://purl.org/dc/terms/description> "Representing different reptiles" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> <http://www.w3.org/2000/01/rdf-schema#label> "Reptil"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> <http://www.w3.org/2000/01/rdf-schema#label> "reptile"@fr .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://purl.org/dc/terms/description> "Representing respiratory system of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "Atmungssystem"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "système respiratoire"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> <http://www.w3.org/2000/01/rdf-schema#label> "دستگاه تنفسی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid123 .
+_:genid123 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid125 <http://www.w3.org/2002/07/owl#oneOf> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2002/07/owl#disjointWith> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid129 <http://www.w3.org/2002/07/owl#complementOf> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid130 <http://www.w3.org/2002/07/owl#unionOf> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid135 <http://www.w3.org/2002/07/owl#oneOf> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid132 <http://www.w3.org/2002/07/owl#oneOf> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://purl.org/dc/terms/description> "Representing sking covering of animals."@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2000/01/rdf-schema#label> "Körperbedeckung"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2000/01/rdf-schema#label> "revêtement corporel"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> <http://www.w3.org/2000/01/rdf-schema#label> "پوشش بدن"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid137 .
+_:genid137 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid139 <http://www.w3.org/2002/07/owl#oneOf> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/2002/07/owl#disjointWith> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid144 <http://www.w3.org/2002/07/owl#complementOf> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid145 <http://www.w3.org/2002/07/owl#unionOf> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid153 <http://www.w3.org/2002/07/owl#oneOf> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid150 <http://www.w3.org/2002/07/owl#oneOf> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid147 <http://www.w3.org/2002/07/owl#oneOf> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://purl.org/dc/terms/description> "Representing animals' status of tameness."@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/2000/01/rdf-schema#label> "Zahmheit"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/2000/01/rdf-schema#label> "docilité"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> <http://www.w3.org/2000/01/rdf-schema#label> "رامی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid155 .
+_:genid155 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid157 <http://www.w3.org/2002/07/owl#oneOf> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160 .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2002/07/owl#disjointWith> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid166 <http://www.w3.org/2002/07/owl#complementOf> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid167 <http://www.w3.org/2002/07/owl#unionOf> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid187 .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid187 <http://www.w3.org/2002/07/owl#oneOf> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid184 .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid184 <http://www.w3.org/2002/07/owl#oneOf> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid180 .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid181 <http://www.w3.org/2002/07/owl#oneOf> _:genid182 .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid178 .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid178 <http://www.w3.org/2002/07/owl#oneOf> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid175 .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid175 <http://www.w3.org/2002/07/owl#oneOf> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid171 .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid172 <http://www.w3.org/2002/07/owl#oneOf> _:genid173 .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid168 .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid169 .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid169 <http://www.w3.org/2002/07/owl#oneOf> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://purl.org/dc/terms/description> "Representing taxonomic rank of animals." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2000/01/rdf-schema#label> "rang taxonomique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomischer Rang"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> <http://www.w3.org/2000/01/rdf-schema#label> "رتبه آرایه‌شناختی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid189 .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid189 <http://www.w3.org/2002/07/owl#oneOf> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid191 .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://purl.org/dc/terms/description> "Representing the conservation status(es) considered as guarded and Threatened. It includes three instances: CriticallyEndangered, Endangered, NearEndangered." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/2000/01/rdf-schema#label> "geschützt"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/2000/01/rdf-schema#label> "protégé"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> <http://www.w3.org/2000/01/rdf-schema#label> "محافظت‌شده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid193 <http://www.w3.org/2002/07/owl#oneOf> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid194 .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus> .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> <http://purl.org/dc/terms/description> "Representing classes which describe information about our main concept of interest; aka animals and specifically vertebrates." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> <http://www.w3.org/2000/01/rdf-schema#label> "ValueThing" .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing> <http://www.w3.org/2002/07/owl#prefLabel> "Value Thing" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://purl.org/dc/terms/description> "Vertebrates comprise all species of animals within the subphylum Vertebrata (i.e. chordates with backbones). Vertebrates represent the overwhelming majority of the phylum Chordata, with currently about 69,276 species described." .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://www.w3.org/2000/01/rdf-schema#label> "Wirbeltier"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://www.w3.org/2000/01/rdf-schema#label> "vertébré"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate> <http://www.w3.org/2000/01/rdf-schema#label> "مهره‌دار"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid196 .
+_:genid196 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid199 .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid198 .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid198 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid198 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "WarmBlooded"@en .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "endothermique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "endothermisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded> <http://www.w3.org/2000/01/rdf-schema#label> "خونگرم"@fa .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> <http://www.w3.org/2000/01/rdf-schema#label> "aquatique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> <http://www.w3.org/2000/01/rdf-schema#label> "aquatisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> <http://www.w3.org/2000/01/rdf-schema#label> "آبی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> <http://www.w3.org/2000/01/rdf-schema#label> "Fleischfresser"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> <http://www.w3.org/2000/01/rdf-schema#label> "carnivore"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> <http://www.w3.org/2000/01/rdf-schema#label> "گوشتخوار"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> <http://www.w3.org/2000/01/rdf-schema#label> "variable"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> <http://www.w3.org/2000/01/rdf-schema#label> "Ändern"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> <http://www.w3.org/2000/01/rdf-schema#label> "متغیر"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> <http://www.w3.org/2000/01/rdf-schema#label> "Klasse"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> <http://www.w3.org/2000/01/rdf-schema#label> "classe"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> <http://www.w3.org/2000/01/rdf-schema#label> "رده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> <http://www.w3.org/2000/01/rdf-schema#label> "froid"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> <http://www.w3.org/2000/01/rdf-schema#label> "kalt"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> <http://www.w3.org/2000/01/rdf-schema#label> "سردسیر"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/2000/01/rdf-schema#label> "complètement éteint"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/2000/01/rdf-schema#label> "völlig ausgestorben"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/2000/01/rdf-schema#label> "انقراض کامل"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> <http://www.w3.org/2002/07/owl#prefLabel> "EX" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/2000/01/rdf-schema#label> "dépendant de la conservation"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/2000/01/rdf-schema#label> "erhaltungsabhängig"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/2002/07/owl#prefLabel> "نیازمند محافظت"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> <http://www.w3.org/2002/07/owl#prefLabel> "CD" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> <http://www.w3.org/2000/01/rdf-schema#label> "Konstante"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> <http://www.w3.org/2000/01/rdf-schema#label> "constant"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> <http://www.w3.org/2000/01/rdf-schema#label> "ثابت"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/2000/01/rdf-schema#label> "en danger critique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/2000/01/rdf-schema#label> "kritisch gefährdet"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/2000/01/rdf-schema#label> "شدیدا در معرض خطر"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> <http://www.w3.org/2002/07/owl#prefLabel> "CR" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/2000/01/rdf-schema#label> "Daten mangelhaft"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/2000/01/rdf-schema#label> "données insuffisantes"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/2000/01/rdf-schema#label> "داده ناکافی"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> <http://www.w3.org/2002/07/owl#prefLabel> "DD" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> <http://www.w3.org/2000/01/rdf-schema#label> "domestique"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> <http://www.w3.org/2000/01/rdf-schema#label> "inländisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> <http://www.w3.org/2000/01/rdf-schema#label> "اهلی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/2000/01/rdf-schema#label> "en danger"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/2000/01/rdf-schema#label> "gefährdet"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/2000/01/rdf-schema#label> "در معرض خطر"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> <http://www.w3.org/2002/07/owl#prefLabel> "EN" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/2000/01/rdf-schema#label> "in freier Wildbahn ausgestorben"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/2000/01/rdf-schema#label> "éteint à l'état sauvage"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/2000/01/rdf-schema#label> "انقراض در حیات وحش"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> <http://www.w3.org/2002/07/owl#prefLabel> "EW" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> <http://www.w3.org/2000/01/rdf-schema#label> "Familie"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> <http://www.w3.org/2000/01/rdf-schema#label> "famille"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> <http://www.w3.org/2000/01/rdf-schema#label> "خانواده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> <http://www.w3.org/2000/01/rdf-schema#label> "Feder"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> <http://www.w3.org/2000/01/rdf-schema#label> "plume"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> <http://www.w3.org/2000/01/rdf-schema#label> "پر"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> <http://www.w3.org/2000/01/rdf-schema#label> "Gattung"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> <http://www.w3.org/2000/01/rdf-schema#label> "genre"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> <http://www.w3.org/2000/01/rdf-schema#label> "سرده"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> <http://www.w3.org/2000/01/rdf-schema#label> "Kiemen"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> <http://www.w3.org/2000/01/rdf-schema#label> "branchies"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> <http://www.w3.org/2000/01/rdf-schema#label> "آبشش"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> <http://www.w3.org/2000/01/rdf-schema#label> "Haar"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> <http://www.w3.org/2000/01/rdf-schema#label> "cheveux"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> <http://www.w3.org/2000/01/rdf-schema#label> "مو"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> <http://www.w3.org/2000/01/rdf-schema#label> "Pflanzenfresser"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> <http://www.w3.org/2000/01/rdf-schema#label> "herbivore"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> <http://www.w3.org/2000/01/rdf-schema#label> "گیاه‌خوار"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Reich"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Règne"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "فرمانرو"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/2000/01/rdf-schema#label> "am wenigsten Sorge"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/2000/01/rdf-schema#label> "moindre préoccupation"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/2000/01/rdf-schema#label> "کمترین نگرانی"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> <http://www.w3.org/2002/07/owl#prefLabel> "LC" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> <http://www.w3.org/2000/01/rdf-schema#label> "Lunge"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> <http://www.w3.org/2000/01/rdf-schema#label> "poumons"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> <http://www.w3.org/2000/01/rdf-schema#label> "شش"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> <http://www.w3.org/2000/01/rdf-schema#label> "modéré"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> <http://www.w3.org/2000/01/rdf-schema#label> "mäßig"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> <http://www.w3.org/2000/01/rdf-schema#label> "معتدل"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/2000/01/rdf-schema#label> "fast bedroht"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/2000/01/rdf-schema#label> "quasi menacée"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/2000/01/rdf-schema#label> "در آستانه خطر"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> <http://www.w3.org/2002/07/owl#prefLabel> "NT" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/2000/01/rdf-schema#label> "nicht bewertet"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/2000/01/rdf-schema#label> "non évalué"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/2000/01/rdf-schema#label> "بررسی‌نشده"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> <http://www.w3.org/2002/07/owl#prefLabel> "NE" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> <http://www.w3.org/2000/01/rdf-schema#label> "Omnivore"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> <http://www.w3.org/2000/01/rdf-schema#label> "omnivore"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> <http://www.w3.org/2000/01/rdf-schema#label> "همه‌چیز‌خوار"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> <http://www.w3.org/2000/01/rdf-schema#label> "Ordnung"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> <http://www.w3.org/2000/01/rdf-schema#label> "ordre"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> <http://www.w3.org/2000/01/rdf-schema#label> "راسته"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> <http://www.w3.org/2000/01/rdf-schema#label> "Embranchement"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> <http://www.w3.org/2000/01/rdf-schema#label> "Stamm"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> <http://www.w3.org/2000/01/rdf-schema#label> "شاخه"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> <http://www.w3.org/2000/01/rdf-schema#label> "Art"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> <http://www.w3.org/2000/01/rdf-schema#label> "Espèce"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> <http://www.w3.org/2000/01/rdf-schema#label> "گونه"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> <http://www.w3.org/2000/01/rdf-schema#label> "domptable"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> <http://www.w3.org/2000/01/rdf-schema#label> "zähmbar"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> <http://www.w3.org/2000/01/rdf-schema#label> "قابل‌تربیت"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> <http://www.w3.org/2000/01/rdf-schema#label> "Terrestre"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> <http://www.w3.org/2000/01/rdf-schema#label> "terrestrisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> <http://www.w3.org/2000/01/rdf-schema#label> "زمینی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> <http://www.w3.org/2000/01/rdf-schema#label> "tropical"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> <http://www.w3.org/2000/01/rdf-schema#label> "tropisch"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> <http://www.w3.org/2000/01/rdf-schema#label> "استوایی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/2000/01/rdf-schema#label> "verletzlich"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/2002/07/owl#prefLabel> "vulnérable"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/2002/07/owl#prefLabel> "آسیب‌پذیر"@fa .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> <http://www.w3.org/2002/07/owl#prefLabel> "VU" .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> <http://www.w3.org/2000/01/rdf-schema#label> "sauvage"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> <http://www.w3.org/2000/01/rdf-schema#label> "wild"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> <http://www.w3.org/2000/01/rdf-schema#label> "وحشی"@fa .
+# 
+# http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate> .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> <http://www.w3.org/2000/01/rdf-schema#label> "Polar/Tundra"@de .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> <http://www.w3.org/2000/01/rdf-schema#label> "polaire/toundra"@fr .
+<http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> <http://www.w3.org/2000/01/rdf-schema#label> "سرددشت/قطبی"@fa .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid200 <http://www.w3.org/2002/07/owl#members> _:genid204 .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid202 .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid205 <http://www.w3.org/2002/07/owl#members> _:genid209 .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid208 .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid207 .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid206 .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid210 <http://www.w3.org/2002/07/owl#members> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid212 .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid211 .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid214 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid249 .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Aquatic> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid248 .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Carnivore> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid247 .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Changing> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid246 .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Classe> .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid245 .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Cold> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid244 .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CompletelyExtinct> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid243 .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationDependent> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid242 .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Constant> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid241 .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#CriticallyEndangered> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid240 .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DataDeficient> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid239 .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Domestic> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid238 .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Endangered> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid237 .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ExtinctInTheWild> .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid236 .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Family> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid235 .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Feather> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid234 .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Genus> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid233 .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Gills> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid232 .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Hair> .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid231 .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Herbivore> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid230 .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Kingdom> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid229 .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LeastConcern> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid228 .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Lungs> .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid227 .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Moderate> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid226 .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NearThreatened> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid225 .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NotEvaluated> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid224 .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Omnivore> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid223 .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Order> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid222 .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Phylum> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid221 .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Species> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid220 .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tamable> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid219 .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Terrestrial> .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid218 .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tropical> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid217 .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vulnerable> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid216 .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Wild> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Polar/Tundra> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid250 <http://www.w3.org/2002/07/owl#members> _:genid259 .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats> .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid258 .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature> .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid257 .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus> .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid256 .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet> .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid255 .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem> .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid254 .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover> .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid253 .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid252 .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid251 .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

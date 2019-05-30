@@ -1,0 +1,219 @@
+{
+  "@context" : {
+    "NonVertebrate" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#NonVertebrate"
+    },
+    "hasBodyTemperature" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasBodyTemperature",
+      "@type" : "@id"
+    },
+    "hasClassName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasClassName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "hasPhylumName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPhylumName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCommanName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasCommanName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "livesInClimate" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#livesInClimate",
+      "@type" : "@id"
+    },
+    "Bird" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Bird"
+    },
+    "hasKingdomName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasKingdomName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Fish" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Fish"
+    },
+    "WarmBlooded" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#WarmBlooded"
+    },
+    "Extinct" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Extinct"
+    },
+    "Habitat" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Habitat"
+    },
+    "eats" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#eats",
+      "@type" : "@id"
+    },
+    "Mammal" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Mammal"
+    },
+    "hasFamilyName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasFamilyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Placental" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Placental"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "extinctIn" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#extinctIn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasOrderName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasOrderName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "author" : {
+      "@id" : "http://www.w3.org/2002/07/owl#author"
+    },
+    "hasHabitat" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasHabitat",
+      "@type" : "@id"
+    },
+    "Vertebrate" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Vertebrate"
+    },
+    "ConservationStatus" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ConservationStatus"
+    },
+    "Reptile" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Reptile"
+    },
+    "LowerRisk" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#LowerRisk"
+    },
+    "hasColor" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasColor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasDiet" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasDiet",
+      "@type" : "@id"
+    },
+    "hasTaxonomicRrank" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonomicRrank",
+      "@type" : "@id"
+    },
+    "Animal" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Animal"
+    },
+    "TaxonomicRank" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#TaxonomicRank"
+    },
+    "hasEnglishName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasEnglishName"
+    },
+    "hasRespiratorySystem" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasRespiratorySystem",
+      "@type" : "@id"
+    },
+    "Unknown" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Unknown"
+    },
+    "hasTopSpeed" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTopSpeed",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "hasGenusName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasGenusName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasConservationStatus" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasConservationStatus",
+      "@type" : "@id"
+    },
+    "Tameness" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Tameness"
+    },
+    "hasSkinCover" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSkinCover",
+      "@type" : "@id"
+    },
+    "Climate" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Climate"
+    },
+    "Threatened" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Threatened"
+    },
+    "hasAverageBodyLength" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageBodyLength",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hasAverageHeight" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageHeight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "ColdBlooded" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ColdBlooded"
+    },
+    "Marsupial" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Marsupial"
+    },
+    "DomainThing" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#DomainThing"
+    },
+    "hasAverageLifespan" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasAverageLifespan",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hasSpeciesName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasSpeciesName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasTameness" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTameness",
+      "@type" : "@id"
+    },
+    "Diet" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Diet"
+    },
+    "SkinCovering" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#SkinCovering"
+    },
+    "Monotreme" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Monotreme"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "ValueThing" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#ValueThing"
+    },
+    "hasTaxonName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasTaxonName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPersianName" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#hasPersianName"
+    },
+    "BodyTemperature" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#BodyTemperature"
+    },
+    "RespiratorySystem" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#RespiratorySystem"
+    },
+    "Amphibian" : {
+      "@id" : "http://www.semanticweb.org/sara/ontologies/VertebrateTaxonomy#Amphibian"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2002/07/owl#prefLabel"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    }
+  }
+}
